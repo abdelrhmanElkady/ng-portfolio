@@ -1,7 +1,7 @@
 # ng-portfolio
 simple portfolio using angular framework
 
-#Live-Demo
+# Live-Demo
 https://ng-simple-portfolio.netlify.app/
 
 # App1
