@@ -1,3 +1,9 @@
+# ng-portfolio
+simple portfolio using angular framework
+
+#Live-Demo
+https://ng-simple-portfolio.netlify.app/
+
 # App1
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
