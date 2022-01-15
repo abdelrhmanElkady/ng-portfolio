@@ -1,0 +1,34 @@
+.up-footer{
+    background-color: #2C3E50;
+}
+.btm-footer{
+    background-color: #1B252F ;
+}
+.fab{
+    font-size: 22px;
+    
+    padding: 15px ;
+    
+}
+.social{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social:hover{
+    transition: .5s;
+    background-color: white ;
+}
+
+.social:hover i{
+    transition: .5s;
+    color: black !important;
+}
+p{
+    margin-bottom: 0 !important;
+}

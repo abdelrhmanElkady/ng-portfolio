@@ -1,0 +1,56 @@
+.portfolio{
+    color: #2C3E50;
+    font-size: 40px;
+}
+.star{
+    position: relative;
+}
+.star::after{
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: #2C3E50 !important;
+    border-radius: 5px;
+   
+    position: absolute;
+    top: 50%;
+    left:60px;
+    transform: translateY(-50%);
+
+  }
+  .star::before{
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: #2C3E50 !important;
+    border-radius: 5px;
+  
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+  
+  }
+  .fa-star{
+      color:#2C3E50 ;
+  }
+
+  .card-image{
+      border-radius: 10px;
+  }
+
+  .overlay{
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #19BE9C;
+      border-radius: 10px;
+      opacity: 0;
+  }
+
+  .img-container:hover .overlay{
+    opacity: .8;
+    transition: 0.5s;
+  }
+  

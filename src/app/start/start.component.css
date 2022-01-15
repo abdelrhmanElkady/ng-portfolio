@@ -1,0 +1,46 @@
+*{
+    background-color: #19BD9C; 
+    
+}
+#avatar{
+    width: 200px;
+}
+
+.start-angular{
+    font-size: 50px !important;
+}
+.star{
+    position: relative;
+}
+
+.star::after{
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: white !important;
+    border-radius: 5px;
+   
+    position: absolute;
+    top: 50%;
+    left:60px;
+    transform: translateY(-50%);
+
+  }
+  .star::before{
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: white !important;
+    border-radius: 5px;
+  
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+  
+  }
+
+  .description{
+      font-size: 20px;
+      font-weight: 400;
+  }
